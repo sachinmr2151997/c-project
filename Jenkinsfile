@@ -1,5 +1,5 @@
 pipeline {
-	agent { label 'master' }
+	agent any
 	parameters {
 		string(name: 'NAME', description: 'Enter your name here')
 		text(name: 'DESCRIPTION', description: 'Enter your details here')
